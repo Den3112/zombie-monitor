@@ -1,0 +1,7 @@
+{
+  "project_name": "zombie-monitor",
+  "redis_prefix": "project:zombie-monitor:facts",
+  "chroma_collection": "zombie-monitor_memories",
+  "notes_path": "/home/creator/.ai-memory/notes/zombie-monitor",
+  "created_at": "2026-02-09T20:41:31.008506"
+}

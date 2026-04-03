@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+.pnpm-debug.log*
+
+# Logs
+*.log
+server.out
+
+# Environment variables
+.env
+
+# System files
+.DS_Store
+Thumbs.db

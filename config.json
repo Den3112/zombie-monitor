@@ -1,0 +1,38 @@
+{
+  "monitoring": {
+    "intervalMs": 30000,
+    "maxHistorySamples": 5,
+    "cpuHangingThreshold": 90,
+    "cpuHangingSamples": 3,
+    "gracePeriodSeconds": 120
+  },
+  "targets": [
+    "chrome",
+    "playwright",
+    "chromedriver",
+    "node",
+    "next-server",
+    "npm",
+    "npx",
+    "ts-node"
+  ],
+  "protected": [
+    "zombie-monitor",
+    "bash",
+    "zsh",
+    "ssh",
+    "sshd",
+    "systemd",
+    "init",
+    "dockerd",
+    "docker-proxy"
+  ],
+  "termination": {
+    "graceful": true,
+    "sigtermWaitSeconds": 15
+  },
+  "logging": {
+    "format": "json",
+    "file": "kills.log"
+  }
+}
