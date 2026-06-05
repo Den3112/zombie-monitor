@@ -19,4 +19,4 @@ A process monitoring helper designed to keep WSL environments clean from zombie 
 
 ## 🔒 License & Usage
 This repository is private and proprietary.
-All rights reserved. Use, modification, copying, or distribution is **strictly prohibited** without the explicit prior written consent of the owner (Denis Kushnirenko).
+All rights reserved. Use, modification, copying, or distribution is **strictly prohibited** without the explicit prior written consent of the owner (Denis).
