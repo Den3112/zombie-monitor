@@ -1,25 +1,22 @@
-# Zombie Monitor
+# zombie-monitor
 
-Project for monitoring zombie processes.
+A process monitoring helper designed to keep WSL environments clean from zombie processes spawned by remote debuggers and containers.
 
-## Development
+---
 
-This project uses **pnpm** and **Volta** for dependency management.
+## 🚀 Key Features
+- Lightweight process loop monitor
+- Automatic cleanup of zombie tasks
+- Low overhead background service integration
 
-### Quick Start
+---
 
-```bash
-# Install dependencies
-pnpm install
+## 🛠️ Tech Stack & Setup
+- **Core Environment**: Setup instructions depend on the stack.
+- Make sure to create a `.env` file for local development configs (do not push keys to git).
 
-# Run the server
-pnpm dev
-# or
-node server.js
-```
+---
 
-### Shared Global Tools
-The following tools are available globally via Volta:
-- `next`
-- `tsc` (TypeScript)
-- `tsx`
+## 🔒 License & Usage
+This repository is private and proprietary.
+All rights reserved. Use, modification, copying, or distribution is **strictly prohibited** without the explicit prior written consent of the owner (Denis Kushnirenko).

@@ -12,3 +12,6 @@ server.out
 # System files
 .DS_Store
 Thumbs.db
+
+# Added during automated cleanup
+.vscode/
